@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Lauren's birthday</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand text-nav" href="#!">You're Invited!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#countdown"
+                >Countdown</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#details">Details</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://api.whatsapp.com/send?phone=13237409984&text=Lauren,can't wait to party with you!🥳🎂"
+                >See you there!</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header - set the background image for the header in the line below-->
+    <header
+      class="py-5 bg-image-full"
+      style="
+        background-image: url(./assets/andrew-knechel-gG6yehL64fo-unsplash.jpg);
+      "
+    >
+      <div class="text-center my-5">
+        <img
+          class="img-fluid rounded-circle mb-4"
+          src="./assets/david-lezcano-1xzSAlZUVSc-unsplash.jpg"
+          alt="..."
+        />
+        <h1 class="text-white fs-3 fw-bolder bg-dark">
+          It's Lauren's <em>Birthday</em>
+        </h1>
+        <p class="bg-title text-nav">Let's Make It Memorable!</p>
+      </div>
+    </header>
+
+    <!-- Content section-->
+    <section class="py-3 info-bg">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <section id="details">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.8745388921052!2d-117.89013230279113!3d33.872635492450186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd5d9fea996ed%3A0xb2ec028f2c0d1ad4!2sMr%20BBQ!5e0!3m2!1ses!2sni!4v1677011850731!5m2!1ses!2sni"
+                class="map"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                id="map"
+              ></iframe>
+              <br />
+              <br />
+              <hgroup class="info">
+                <h2 class="text-nav">We want you to join us in celebrating</h2>
+                <p>Help us wish Lauren a happy 14th birthday!</p>
+                <h3>Date:</h3>
+                <p>March 20th, 2023 at 2:00pm</p>
+                <h3>Place:</h3>
+                <p>Not defined yet</p>
+              </hgroup>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content section-->
+
+    <section
+      class="py-3 py-5 bg-image-full"
+      style="
+        background-image: url(./assets/adrian-korte-5gn2soeAc40-unsplash.jpg);
+      "
+    >
+      <div class="container my-5">
+        <div class="justify-content-center">
+          <div>
+            <section id="bdcountdown" class="bdcountdown text-card">
+              <span id="year" class="year"></span>
+              <div id="countdown" class="countdown">
+                <div class="time">
+                  <h2 id="days">00</h2>
+                  <p>days</p>
+                </div>
+                <div class="time">
+                  <h2 id="hours">00</h2>
+                  <p>hours</p>
+                </div>
+                <div class="time">
+                  <h2 id="minutes">00</h2>
+                  <p>minutes</p>
+                </div>
+                <div class="time">
+                  <h2 id="seconds">00</h2>
+                  <p>seconds</p>
+                </div>
+              </div>
+              <div class="center-body">
+                <div
+                  class="loader-circle-24"
+                  id="loading"
+                  class="loading"
+                ></div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright NetizensArea &copy; 2022
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
